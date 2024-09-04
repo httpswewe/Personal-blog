@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+        background-image: url('bgimg.webp');
+    }
+    header{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    nav{
+        background-color: rgb(105, 114, 122);
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    article{
+        background-color: white;
+        padding: 20px;
+        margin: 20px;
+        width: 40%;
+    }
+    aside{
+        left: 0;
+        bottom: 0;
+        background-color: lightblue;
+        padding: 10px;
+        width: 150px;
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #738994;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome To My Blog Page</h1>
+    <p>This is my personal blog page to share things about myself</p>
+  </header>
+  <nav>
+    <ul>
+      <li style="display: inline; margin: 0 15px;"><a href="#" style="color: white; text-decoration: none;"> HOME </a></li>
+      <li style="display: inline; margin: 0 15px;"><a href="#" style="color: white; text-decoration: none;"> ABOUT </a></li>
+      <li style="display: inline; margin: 0 15px;"><a href="#" style="color: white; text-decoration: none;"> CONTACT </a></li>
+    </ul>
+  </nav>
+  <section>
+    <article>
+      <h2><u>Blog Post 1</u></h2>
+      <p>Posted on <time datetime="2024-09-04">September 4, 2024</time> by <a href="#">Wewe</a></p>
+      <p>I like to make my art using both traditional art which uses physical materials like paint, charcoal, and canvas,
+        as well as, ddigital art which uses technology to recreate the effects of traditional art, as of now, i am currently
+        using softwares such as Adobe Fresco and Procreate.
+      </p>
+    </article>
+    <article>
+      <h2>Blog Post 2</h2>
+      <p>Posted on <time datetime="2024-09-03">September 3, 2024</time> by <a href="#">Wewe</a></p>
+      <p>In my free time, a way to unwind and express myself, sketching has been a timeless favourite of mine. 
+        With just a pencil and paper, i am able to captivate myself in a world of creativity and imagination. </p>
+    </article>
+  </section>
+  <aside>
+    <h2 style="color: white;">Blog Categories</h2>
+    <ul>
+      <li><a href="#">Blog1</a></li>
+      <li><a href="#">Blog2</a></li>
+    </ul>
+  </aside>
+  <section><div style="position: fixed; right: 15px; display: flex; bottom: 150px;">
+        <iframe height="215" width="400" src="https://www.youtube.com/embed/QAekG2b00FI?si=A-7hX8SxsWivmKhX" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe height="215" width="400" src="https://www.youtube.com/embed/n2otT7dax-E?si=C6vUPvAew3nAI3ca" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </section>
+  <footer>
+    <p>&copy; 2024 Wewe's blog</p>
+    <p>Contact me at <a href="mypersonalblog@gmail.com">myblogmail@gmail.com</a></p>
+  </footer>
+</body>
+</html>
